@@ -1,0 +1,139 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diseño y Programación Web</title>
+
+    <!-- JQUERY -->
+    <script src="js/jquery-4.0.0.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="contenedor">
+
+        <!-- TITULO -->
+        <header>
+          <h1>FREDDY CHURATA MAYTA</h1>
+
+    <p class="subtitulo">
+        Diseño y Programación Web
+    </p>
+            <h1>DISEÑO Y PROGRAMACIÓN WEB</h1>
+            <p class="subtitulo">
+                Aprende desarrollo web moderno, programación e inteligencia artificial
+            </p>
+        </header>
+
+        <!-- MENU -->
+        <nav class="menu">
+
+            <a href="#">Institucional</a>
+            <a href="#">Departamentos</a>
+            <a href="#">Cochabamba</a>
+            <a href="#">Oruro</a>
+            <a href="#">Potosí</a>
+            <a href="#">Tarija</a>
+            <a href="#">Santa Cruz</a>
+            <a href="#">Beni</a>
+
+        </nav>
+
+        <!-- CONTENIDO -->
+        <section class="contenido">
+
+            <div class="card">
+
+                <h2>Inteligencia Artificial</h2>
+
+                <div id="ia">
+                    LA INTELIGENCIA ARTIFICIAL ESTÁ EN SU PLENO AUGE
+                </div>
+
+                <div id="mensaje">
+                    <h3>ES ALGO INEVITABLE</h3>
+
+                    <p>
+                        La inteligencia artificial está transformando
+                        la educación, la medicina, la programación,
+                        la seguridad y el trabajo digital en todo el mundo.
+                    </p>
+
+                    <p>
+                        Las nuevas tecnologías permiten automatizar
+                        tareas, crear sistemas inteligentes y desarrollar
+                        aplicaciones modernas para empresas y usuarios.
+                    </p>
+                </div>
+
+            </div>
+
+            <!-- TARJETAS -->
+            <div class="cards">
+
+                <div class="mini-card">
+                    <h3>HTML5</h3>
+                    <p>
+                        Estructura moderna para páginas web.
+                    </p>
+                </div>
+
+                <div class="mini-card">
+                    <h3>CSS3</h3>
+                    <p>
+                        Diseños atractivos y responsivos.
+                    </p>
+                </div>
+
+                <div class="mini-card">
+                    <h3>JQUERY</h3>
+                    <p>
+                        Interactividad y animaciones web.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </div>
+
+    <script>
+
+        // CUANDO EL PUNTERO ENTRE
+        $("#ia").hover(
+
+            function(){
+
+                $("#mensaje").stop().slideDown(700);
+
+                $("#ia").css({
+                    "background":"linear-gradient(90deg,#ff512f,#dd2476)",
+                    "color":"white",
+                    "transform":"scale(1.03)"
+                });
+
+            },
+
+            function(){
+
+                $("#mensaje").stop().slideUp(700);
+
+                $("#ia").css({
+                    "background":"linear-gradient(90deg,#ffe259,#ffa751)",
+                    "color":"black",
+                    "transform":"scale(1)"
+                });
+
+            }
+
+        );
+
+    </script>
+
+</body>
+</html>
