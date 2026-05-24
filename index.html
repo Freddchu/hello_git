@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Proyecto web educativo sobre diseno, programacion web e inteligencia artificial.">
-    <title>Freddy Churata | Diseno y Programacion Web</title>
+    <meta name="description" content="Portafolio web educativo sobre diseno, programacion e inteligencia artificial.">
+    <title>Freddy Churata | Portafolio Web</title>
 
     <script src="js/jquery-4.0.0.min.js"></script>
     <link rel="stylesheet" href="css/style.css">
@@ -18,73 +18,106 @@
                 <p class="etiqueta">Portafolio academico</p>
                 <h1>Freddy Churata Mayta</h1>
                 <p class="subtitulo">
-                    Diseno y programacion web con HTML, CSS, JavaScript e inteligencia artificial.
+                    Desarrollo web, diseno digital e inteligencia artificial aplicados en proyectos modernos.
                 </p>
                 <div class="acciones">
-                    <a class="boton primario" href="#temas">Ver temas</a>
-                    <a class="boton secundario" href="#proyecto">Proyecto final</a>
+                    <a class="boton primario" href="#proyectos">Ver proyectos</a>
+                    <a class="boton secundario" href="#contacto">Contactar</a>
                 </div>
+            </div>
+
+            <div class="hero-panel" aria-label="Resumen del proyecto">
+                <span class="estado">Disponible para aprender</span>
+                <strong>HTML + CSS + JS</strong>
+                <p>Un sitio web responsivo construido paso a paso.</p>
             </div>
         </header>
 
         <nav class="menu" aria-label="Navegacion principal">
             <a href="#inicio">Inicio</a>
-            <a href="#temas">Temas</a>
+            <a href="#sobre-mi">Sobre mi</a>
+            <a href="#habilidades">Habilidades</a>
             <a href="#ia">IA</a>
-            <a href="#ruta">Ruta</a>
-            <a href="#proyecto">Proyecto</a>
+            <a href="#proyectos">Proyectos</a>
             <a href="#contacto">Contacto</a>
         </nav>
 
         <main>
-            <section class="seccion presentacion">
+            <section class="seccion presentacion" id="sobre-mi">
                 <div>
-                    <p class="etiqueta">Objetivo</p>
-                    <h2>Aprender creando sitios web utiles</h2>
+                    <p class="etiqueta">Sobre el proyecto</p>
+                    <h2>Una pagina personal para mostrar aprendizaje y practica</h2>
                     <p>
-                        Este proyecto reune conceptos basicos de desarrollo web y los organiza en una pagina
-                        moderna, responsiva e interactiva. La idea es practicar estructura HTML, estilos CSS
-                        y pequenos efectos con jQuery.
+                        Este sitio presenta conocimientos de desarrollo web de forma ordenada: estructura,
+                        estilos, interactividad y publicacion en GitHub. Tambien sirve como base para un
+                        portafolio personal mas completo.
                     </p>
                 </div>
 
                 <div class="resumen">
                     <div>
-                        <strong>HTML</strong>
-                        <span>Estructura</span>
+                        <strong>4</strong>
+                        <span>Secciones principales</span>
                     </div>
                     <div>
-                        <strong>CSS</strong>
-                        <span>Diseno visual</span>
+                        <strong>3</strong>
+                        <span>Tecnologias base</span>
                     </div>
                     <div>
-                        <strong>JS</strong>
-                        <span>Interaccion</span>
+                        <strong>100%</strong>
+                        <span>Adaptable a celular</span>
                     </div>
                 </div>
             </section>
 
-            <section class="seccion" id="temas">
-                <p class="etiqueta">Contenido</p>
-                <h2>Temas principales</h2>
+            <section class="seccion banda">
+                <div class="dato">
+                    <strong>HTML5</strong>
+                    <span>Contenido semantico</span>
+                </div>
+                <div class="dato">
+                    <strong>CSS3</strong>
+                    <span>Diseno visual</span>
+                </div>
+                <div class="dato">
+                    <strong>jQuery</strong>
+                    <span>Interaccion</span>
+                </div>
+                <div class="dato">
+                    <strong>GitHub</strong>
+                    <span>Versionamiento</span>
+                </div>
+            </section>
+
+            <section class="seccion" id="habilidades">
+                <div class="encabezado-seccion">
+                    <div>
+                        <p class="etiqueta">Habilidades</p>
+                        <h2>Temas que se practican</h2>
+                    </div>
+                    <p>
+                        Cada bloque resume una habilidad importante para crear paginas web claras,
+                        atractivas y faciles de mantener.
+                    </p>
+                </div>
 
                 <div class="cards">
                     <article class="mini-card">
                         <span class="numero">01</span>
-                        <h3>HTML5</h3>
-                        <p>Uso correcto de etiquetas, encabezados, enlaces, listas, secciones y contenido semantico.</p>
+                        <h3>Estructura HTML</h3>
+                        <p>Secciones, encabezados, enlaces, botones, tarjetas y contenido organizado.</p>
                     </article>
 
-                    <article class="mini-card">
+                    <article class="mini-card destacada">
                         <span class="numero">02</span>
-                        <h3>CSS3</h3>
-                        <p>Colores, espaciado, tarjetas, menus, efectos hover y diseno adaptable para celulares.</p>
+                        <h3>Diseno CSS</h3>
+                        <p>Colores, espaciado, sombras, grillas, efectos hover y diseno responsivo.</p>
                     </article>
 
                     <article class="mini-card">
                         <span class="numero">03</span>
-                        <h3>jQuery</h3>
-                        <p>Animaciones sencillas, eventos del mouse y cambios dinamicos en los elementos.</p>
+                        <h3>JavaScript</h3>
+                        <p>Eventos, animaciones, mensajes dinamicos y pequenos detalles interactivos.</p>
                     </article>
                 </div>
             </section>
@@ -92,11 +125,11 @@
             <section class="seccion bloque-ia" id="ia">
                 <div>
                     <p class="etiqueta">Tecnologia actual</p>
-                    <h2>Inteligencia artificial</h2>
+                    <h2>Inteligencia artificial como apoyo al aprendizaje</h2>
                     <p>
-                        La inteligencia artificial esta transformando la educacion, la medicina, la programacion,
-                        la seguridad y el trabajo digital. Aprender a usarla con criterio ayuda a crear mejores
-                        soluciones para personas y empresas.
+                        La inteligencia artificial ayuda a investigar, generar ideas, revisar errores y crear
+                        soluciones mas rapido. En desarrollo web puede apoyar en el diseno, el codigo y la
+                        explicacion de conceptos.
                     </p>
                 </div>
 
@@ -105,61 +138,95 @@
                 </button>
 
                 <div id="mensaje-ia" class="mensaje-ia">
-                    <h3>La IA no reemplaza el aprendizaje</h3>
+                    <h3>La IA es una herramienta, no un reemplazo</h3>
                     <p>
-                        La IA puede ayudar a investigar, corregir errores, generar ideas y automatizar tareas,
-                        pero el criterio humano sigue siendo necesario para decidir, revisar y mejorar.
+                        El resultado mejora cuando la persona entiende el problema, revisa el codigo,
+                        prueba la pagina y decide que cambios tienen sentido.
                     </p>
                 </div>
             </section>
 
-            <section class="seccion" id="ruta">
-                <p class="etiqueta">Practica</p>
-                <h2>Ruta de aprendizaje</h2>
+            <section class="seccion" id="proyectos">
+                <div class="encabezado-seccion">
+                    <div>
+                        <p class="etiqueta">Practica</p>
+                        <h2>Proyectos destacados</h2>
+                    </div>
+                    <p>
+                        Ideas que pueden agregarse al repositorio para seguir aprendiendo y mostrar avance.
+                    </p>
+                </div>
 
-                <div class="ruta">
-                    <div class="paso">
-                        <span>1</span>
-                        <p>Crear la estructura base con HTML.</p>
-                    </div>
-                    <div class="paso">
-                        <span>2</span>
-                        <p>Dar estilo con CSS y revisar en celular.</p>
-                    </div>
-                    <div class="paso">
-                        <span>3</span>
-                        <p>Agregar interactividad con JavaScript.</p>
-                    </div>
-                    <div class="paso">
-                        <span>4</span>
-                        <p>Subir cambios a GitHub y publicar con Pages.</p>
-                    </div>
+                <div class="proyectos-grid">
+                    <article class="proyecto-card">
+                        <span>Pagina personal</span>
+                        <h3>Portafolio del estudiante</h3>
+                        <p>Presentacion, habilidades, proyectos, enlaces y contacto.</p>
+                    </article>
+
+                    <article class="proyecto-card">
+                        <span>Educacion</span>
+                        <h3>Sitio sobre inteligencia artificial</h3>
+                        <p>Explicacion simple de usos, ventajas, riesgos y ejemplos.</p>
+                    </article>
+
+                    <article class="proyecto-card">
+                        <span>Practica Git</span>
+                        <h3>Repositorio publicado</h3>
+                        <p>Control de versiones, commits claros y publicacion con GitHub Pages.</p>
+                    </article>
                 </div>
             </section>
 
-            <section class="seccion proyecto" id="proyecto">
+            <section class="seccion proyecto">
                 <div>
-                    <p class="etiqueta">Resultado</p>
-                    <h2>Proyecto final sugerido</h2>
+                    <p class="etiqueta">Avance</p>
+                    <h2>Ruta para completar el sitio</h2>
                     <p>
-                        Construir una pagina personal que muestre datos del estudiante, temas aprendidos,
-                        ejemplos de codigo y una seccion de contacto. Este repositorio puede crecer hasta
-                        convertirse en un portafolio.
+                        El proyecto puede crecer con mas paginas, imagenes propias, un formulario real,
+                        certificados, enlaces a trabajos y una galeria de capturas.
                     </p>
                 </div>
 
                 <div class="medidor">
-                    <p>Avance del proyecto</p>
+                    <div class="medidor-arriba">
+                        <p>Avance del proyecto</p>
+                        <strong id="porcentaje">0%</strong>
+                    </div>
                     <div class="barra">
                         <span id="avance"></span>
                     </div>
                 </div>
             </section>
+
+            <section class="seccion contacto" id="contacto">
+                <div>
+                    <p class="etiqueta">Contacto</p>
+                    <h2>Sigamos construyendo</h2>
+                    <p>
+                        Este formulario es visual. Puede conectarse despues con un servicio real o una
+                        pagina de contacto mas avanzada.
+                    </p>
+                </div>
+
+                <form class="formulario" id="formulario-contacto">
+                    <label>
+                        Nombre
+                        <input type="text" placeholder="Escribe tu nombre">
+                    </label>
+                    <label>
+                        Mensaje
+                        <textarea rows="4" placeholder="Escribe tu mensaje"></textarea>
+                    </label>
+                    <button class="boton primario" type="submit">Enviar mensaje</button>
+                    <p id="respuesta-formulario" class="respuesta-formulario"></p>
+                </form>
+            </section>
         </main>
 
-        <footer id="contacto">
+        <footer>
             <p>Freddy Churata Mayta</p>
-            <p>Proyecto publicado en GitHub - <span id="anio"></span></p>
+            <p>Proyecto web en GitHub - <span id="anio"></span></p>
         </footer>
 
     </div>
